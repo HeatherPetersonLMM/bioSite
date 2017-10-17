@@ -1,0 +1,65 @@
+body { 
+
+	font-size: 30px;
+
+	outline-color:#8f7156;
+
+	outline-style: solid;
+
+	outline-width: 20px;
+
+	margin:0:} 
+
+ 
+
+h1 {
+
+	color: #b3003b;
+
+	font-family: 'Great Vibes', cursive;
+
+	font-size: 5.063em;
+
+	margin: 0;}
+
+
+
+h2, h3,h4, h5	{
+
+	color: #8f7156;
+
+	font-family: 'The Girl Next Door', cursive;
+
+	font-weight: bold;
+
+	font-size: 1em;
+
+	background-color: #ffb3b3;
+
+	opacity: .75;
+
+	border-width: 2.5px;
+
+	border-radius: 15px;
+
+	border-style: solid;
+
+	border-color: #ff80aa;
+
+	padding: 10px;
+
+	margin: 0;}
+
+
+
+#paragraph	{
+
+	color: #b3003b;
+
+	font-family: 'Shadows Into Light Two', cursive;
+
+	font-size: 0.667em;
+
+	line-height: 0;
+
+	letter-spacing: 0;}
