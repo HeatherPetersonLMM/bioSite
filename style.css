@@ -1,0 +1,106 @@
+body { 
+	font-size: 30px;
+	margin:	25px;
+	padding: 45px;} 
+
+h1 {
+	color: #b3003b;
+	font-family: 'Great Vibes', cursive;
+	font-size: 2em;
+	margin: 0;
+	text-align: center;
+	letter-spacing: 0.009em;}
+	
+	
+#life	{
+	letter-spacing: 0.065em;}
+	
+img.lilyanna	{
+	display: block;
+	border-width: 4px;
+	border-style: outset;
+	border-color: pink;
+	padding: 0;
+	margin: 0px auto;
+		-moz-box-shadow: 0 0 10px #777777;
+		-webkit-box-shadow: 0 0 10px #777777;
+		box-shadow: 0 0 10px #777777;}
+	
+h2, h3,h4, h5	{
+	color: #8f7156;
+	font-family: 'The Girl Next Door', cursive;
+	font-weight: bold;
+	font-size: 1em;
+	background-color: #ffb3b3;
+	opacity: .75;
+	border-width: 2.5px;
+	border-radius: 15px;
+	border-style: solid;
+	border-color: #ff80aa;
+	padding: 10px;
+	margin: 0px auto;}
+
+img.dan	{
+	border-width: 2px;
+	border-style: outset;
+	border-color: #8f7156;
+	padding: 0;
+	margin: 5px;}
+
+img.me	{
+	border-width: 2px;
+	border-style: outset;
+	border-color: #8f7156;
+	margin: 10px;}
+	
+img.minnie	{
+	border-width: 2px;
+	border-style: outset;
+	border-color: #8f7156;
+	padding: 0;
+	margin: 10px;}
+
+img.photo	{
+	border-width: 2px;
+	border-style: outset;
+	border-color: #8f7156;
+	padding: 0;
+	margin: 10px;}	
+
+#paragraph1	{
+	color: #b3003b;
+	font-family: 'Shadows Into Light Two', cursive;
+	font-size: 0.667em;
+	line-height: 0;
+	letter-spacing: 0;
+	padding: 20px;
+	margin: 0;}
+	
+#paragraph2	{
+	color: #b3003b;
+	font-family: 'Shadows Into Light Two', cursive;
+	font-size: 0.667em;
+	line-height: 0;
+	letter-spacing: 0;
+	padding: 20px;
+	padding-bottom: 100px;
+	margin: 0;}
+	
+#paragraph3	{
+	color: #b3003b;
+	font-family: 'Shadows Into Light Two', cursive;
+	font-size: 0.667em;
+	line-height: 0;
+	letter-spacing: 0;
+	padding: 20px;
+	margin: 0;}
+	
+#paragraph4	{
+	color: #b3003b;
+	font-family: 'Shadows Into Light Two', cursive;
+	font-size: 0.667em;
+	line-height: 0;
+	letter-spacing: 0;
+	padding: 20px;
+	margin: 0;}
+	
