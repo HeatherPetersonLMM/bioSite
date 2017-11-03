@@ -34,22 +34,47 @@
 		
 	</div>
 	
-	<div id="favorite">
+	<div id="favorites">
 	
 		<h4>My Favorites</h4>
 		
-			<p><span id="paragraph3">
-			<img src="../images2/kitten.JPG" alt="Sleeping Minnie" class="minnie" height="300"/>
-			<img src="../images2/frozen.JPG" alt="Frozen" class="frozen" height="300"/>
-			<img src="../images2/swim.JPG" alt="Swimming" class="swimming" height="300"/>
-			<img src="../images2/halloween.JPG" alt="Halloween" class="halloween" height="300"/>
-			I could give a list of why a chocolate cake is the best creation ever, but that will just make everyone hungry.  So, I will start pizza as one of my top favorite foods.  I took swimming classes this past summer and now know how to swim like a fish.  I can’t wait for the My Little Pony movie to come out because Rainbow Dash is my favorite hero.  The softest spot in my heart goes to, none other than, cats. Cats. Cats. Cats.  I LOVE CATS!</span></p><br>
-			
-	</div>
+		<figure>
+		
+			<div class="w3-content w3-section" style="max-width:500px">
+			<img src="../images2/kitten.JPG" alt="Sleeping Minnie" class="favorites" height="350" width="275"/>
+			<img src="../images2/frozen.JPG" alt="Frozen" class="favorites" height="350" width="275"/>
+			<img src="../images2/swim.JPG" alt="Swimming" class="favorites" height="350" width="275"/>
+			<img src="../images2/halloween.JPG" alt="Halloween" class="favorites" height="350" width="275"/>
+			</div>
 	
-	<hr>
+						<script>
+				var myIndex = 0;
+				carousel();
+
+				function carousel() {
+					var i;
+					var x = document.getElementsByClassName("favorites");
+					for (i = 0; i < x.length; i++) {
+					x[i].style.display = "none";  
+					}
+					myIndex++;
+					if (myIndex > x.length) {myIndex = 1}    
+					x[myIndex-1].style.display = "inline";  
+					setTimeout(carousel, 2000); // Change image every 2 seconds
+				}
+				
+			</script>
+	
+		</figure>
+		
+	</div>	
+		
+			<p><span id="paragraph3">I could give a list of why a chocolate cake is the best creation ever, but that will just make everyone hungry.  So, I will start pizza as one of my top favorite foods.  I took swimming classes this past summer and now know how to swim like a fish.  I can’t wait for the My Little Pony movie to come out because Rainbow Dash is my favorite hero.  The softest spot in my heart goes to, none other than, cats. Cats. Cats. Cats.  I LOVE CATS!<br><br><br><br><br><br><br><br><br>
+			</span></p>
 	
 	<footer>
+	
+	<hr>
 	
 		Made with Love<br />  By Heather Peterson
 		
