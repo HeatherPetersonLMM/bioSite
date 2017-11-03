@@ -34,25 +34,47 @@
 		
 	</div>	
 	
-	<div id="family">
 	
-	<figure>
+	<div id="family">
 		
-		<h3>My Family</h3>		
+		<h3>My Family</h3>
+		
+		<figure>
+		
+			<div class="w3-content w3-section" style="max-width:500px">
+			<img src="../images2/mom.jpg" alt="Me and Lily" class="family" width="300"/>
+			<img src="../images2/Lily_Dan.jpg" alt="Lily and Dan" class="family" width="300"/>
+			<img src="../images2/gpa.JPG" alt="Grandpa" class="family" width="300"/>
+			<img src="../images2/lucy.JPG" alt="Lucy" class="family" width="300"/>
+			</div>
 			
-			<img src="../images2/mom.jpg" alt="Me and Lily" class="me" width="200"/>
-			<img src="../images2/Lily_Dan.jpg" alt="Lily and Dan" class="dan" width="200"/>
-			<img src="../images2/gpa.JPG" alt="Grandpa" class="gpa" width="200"/>
-			<img src="../images2/lucy.JPG" alt="Lucy" class="lucy" width="200"/>
-			<p><span id="paragraph2">1 mom and dad. 2 grandma and grandpas. 3 aunts. A double handful of fur babies.  I’ve got a lot of people in my family.  Whether we are eating dinner, playing outside, or watching Trolls, I love all the time I get to spend with them.</span></p><br>
+			<script>
+				var myIndex = 0;
+				carousel();
+
+				function carousel() {
+					var i;
+					var x = document.getElementsByClassName("family");
+					for (i = 0; i < x.length; i++) {
+					x[i].style.display = "none";  
+					}
+					myIndex++;
+					if (myIndex > x.length) {myIndex = 1}    
+					x[myIndex-1] .style.display = "inline"; 
+					setTimeout(carousel, 2000); // Change image every 2 seconds
+				}
+			</script>	
 			
-		</figure>
+			<p><span id="paragraph2">1 mom and dad. 2 grandma and grandpas. 3 aunts. A double handful of fur babies.  I’ve got a lot of people in my family.  Whether we are eating dinner, playing outside, or watching Trolls, I love all the time I get to spend with them.<br><br>
+			</span></p>
 			
+		</figure>	
+	
 	</div>
 	
-	<hr>
-	
 	<footer>
+	
+	<hr>
 	
 		Made with Love<br />  By Heather Peterson
 		
