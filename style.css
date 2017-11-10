@@ -1,4 +1,7 @@
 body { 
+	background-image: url("images2/back.PNG");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
 	font-size: 30px;
 	margin:	25px;
 	padding: 45px;} 
@@ -43,7 +46,7 @@ img.lilyanna	{
 	margin: 0px auto;}
 	
 h2, h3,h4, h5	{
-	color: #8f7156;
+	color: #ffffff;
 	font-family: 'The Girl Next Door', cursive;
 	font-weight: bold;
 	font-size: 1em;
@@ -98,38 +101,34 @@ img.vet	{
 	padding: 0;}
 
 #paragraph1	{
-	color: #b3003b;
-	font-family: 'Shadows Into Light Two', cursive;
-	font-size: 0.667em;
-	line-height: 0;
-	letter-spacing: 0;
-	padding: 10px;
+	color: #666666;
+	font-family: 'Open Sans', sans-serif;
+	font-size: .667em;
+	letter-spacing: -.05em;
+	padding: 0;
 	margin-bottom: 20px;}
 	
 #paragraph2	{
-	color: #b3003b;
-	font-family: 'Shadows Into Light Two', cursive;
-	font-size: 0.667em;
-	line-height: 0;
-	letter-spacing: 0;
-	padding: 10px;
+	color: #666666;
+	font-family: 'Open Sans', sans-serif;
+	font-size: .667em;
+	letter-spacing: -.05em;
+	padding: 0;
 	margin-bottom: 20px;}
 	
 #paragraph3	{
-	color: #b3003b;
-	font-family: 'Shadows Into Light Two', cursive;
-	font-size: 0.667em;
-	line-height: 0;
-	letter-spacing: 0;
+	color: #666666;
+	font-family: 'Open Sans', sans-serif;
+	font-size: .667em;
+	letter-spacing: -.05em;
 	padding: 0;
-	margin: 0 auto;}
+	margin-bottom: 20px;}
 	
 #paragraph4	{
-	color: #b3003b;
-	font-family: 'Shadows Into Light Two', cursive;
-	font-size: 0.667em;
-	line-height: 0;
-	letter-spacing: 0;
+	color: #666666;
+	font-family: 'Open Sans', sans-serif;
+	font-size: .667em;
+	letter-spacing: -.05em;
 	padding: 0;
-	margin: 0 auto;}
+	margin-bottom: 20px;}
 
