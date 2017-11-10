@@ -1,53 +1,77 @@
 <!DOCTYPE html>
 
 <html>
-	
+
 	<link rel="stylesheet" type="text/css" href="../style.css">
 	
 	<link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=The+Girl+Next+Door" rel="stylesheet"> 
-	<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two" rel="stylesheet"> 
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	
 		<title> Lily's Life </title>
 		
-	<div id="Lilyslife">
+			<div id="Lilyslife">
 	
 		<h1>Lily's <span id="life">Life</span></h1>
 		
 	</div>
 		
 	<div class="navbar">
-			
-		<ul>
+	
+			<ul>
 			
 			<a href="../index.html" class="hover">Main Page</a>   |
 				
 			<a href="../about.html" class="hover">About Me</a>   |
 				
-			<a href="../family/family.html" class="hover">My Family</a>   |
+			<a href="family.html" class="hover">My Family</a>   |
 				
 			<a href="../favorites/favorites.html" class="hover">My Favorites</a>   |
 				
-			<a href="future.html" class="hover">My Future</a>
+			<a href="../future/future.html" class="hover">My Future</a>
 		
-		</ul>
+			</ul>
 		
 	</div>	
 	
-	<div id="future">
-	
-		<h5>My Future</h5>
+	<div id="family">
+		
+		<h3>My Family</h3>
 		
 		<figure>
 		
-			<img src="../images2/vet.JPEG" alt="vet" class="vet" width="300"/>	
+			<div class="w3-content w3-section" style="max-width:500px">
+			<img src="../images2/mom.jpg" alt="Me and Lily" class="family" width="275"/>
+			<img src="../images2/Lily_Dan.jpg" alt="Lily and Dan" class="family" width="275"/>
+			<img src="../images2/gpa.JPG" alt="Grandpa" class="family" width="275"/>
+			<img src="../images2/lucy.JPG" alt="Lucy" class="family" width="275"/>
+			</div>
 			
-			<p><span id="paragraph4">My mom asked me a question, which I liked better, cats or dogs?  I said cats because they have 9 lives and are cuter.  Thinking back, I think all animals deserve 9 lives and all of them are cuter.  I would like to be a Veterinarian when I grow-up so I can spend time with and help animals.  My cat, Sega, is a Main Coon and he loves to be brushed and fed treats.  I also have a dog named, Asia, at my daddy's house.  She is all black and loves to play and jump on me.  I can draw owls really well.  They are one of my many favorite animals.
+			<script>
+			
+				var myIndex = 0;
+				carousel();
+
+				function carousel() {
+					var i;
+					var x = document.getElementsByClassName("family");
+					for (i = 0; i < x.length; i++) {
+					x[i].style.display = "none";  
+					}
+					myIndex++;
+					if (myIndex > x.length) {myIndex = 1}    
+					x[myIndex-1] .style.display = "block"; 
+					setTimeout(carousel, 2000); // Change image every 2 seconds
+				}
+				
+			</script>
+			
+			<p><span id="paragraph2"><b>1</b> mom and dad. <b>2</b> grandmas and grandpas. <b>3</b> aunts. A double handful of fur babies!  I’ve got a lot of people in my family.  Whether we are eating dinner, playing outside, or watching Trolls, I love all the time I get to spend with them.  These past couple years I have been lucky enough to travel to Florida and Minnesota to see my extended family.  I swam in the Atlantic Ocean and collected Pen Shells in Florida with my cousin Bristol.  I also got to watch my other cousin Josh play football while me and cousin Lucy cheered him on in our handmade tie-dyed shirts!
 			</span></p><br><br><br><br><br><br><br>
 			
-		</figure>
-		
+		</figure>	
+	
 	</div>
 	
 		<hr>
