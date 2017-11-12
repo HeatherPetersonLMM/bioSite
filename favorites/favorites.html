@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html>
+
+	<body>
+
+		<link rel="stylesheet" type="text/css" href="../style.css">
+	
+		<link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=The+Girl+Next+Door" rel="stylesheet"> 
+		<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">	
+	
+			<title> Lily's Life </title>
+		
+				<div id="Lilyslife">
+	
+			<h1>Lily's <span id="life">Life</span></h1>
+		
+		</div>
+		
+		<div class="navbar">
+			
+			<ul>
+			
+				<a href="../index.html" class="hover">Main Page</a>   |
+				
+				<a href="../about.html" class="hover">About Me</a>   |
+				
+				<a href="../family/family.html" class="hover">My Family</a>   |
+				
+				<a href="favorites.html" class="hover">My Favorites</a>   |
+				
+				<a href="../future/future.html" class="hover">My Future</a>
+		
+			</ul>
+		
+		</div>
+	
+		<div id="favorites">
+	
+			<h4>My Favorites</h4>
+		
+			<figure>
+		
+				<div class="w3-content w3-section" style="max-width:500px">
+				<img src="../images2/kitten.JPG" alt="Sleeping Minnie" class="favorites" height="350" width="275"/>
+				<img src="../images2/frozen.JPG" alt="Frozen" class="favorites" height="350" width="275"/>
+				<img src="../images2/swim.JPG" alt="Swimming" class="favorites" height="350" width="275"/>
+				<img src="../images2/halloween.JPG" alt="Halloween" class="favorites" height="350" width="275"/>
+				</div>
+	
+			<script>
+			
+				var myIndex = 0;
+				carousel();
+
+				function carousel() {
+					var i;
+					var x = document.getElementsByClassName("favorites");
+					for (i = 0; i < x.length; i++) {
+					x[i].style.display = "none";  
+					}
+					myIndex++;
+					if (myIndex > x.length) {myIndex = 1}    
+					x[myIndex-1].style.display = "inline-block";  
+					setTimeout(carousel, 2000); // Change image every 2 seconds
+				}
+				
+			</script>
+	
+				<p><span id="paragraph3">I could give a list of why a chocolate cake is the best creation ever, but that will just make everyone hungry.  So, I will start with a pizza as one of my top favorite foods.  I took swimming classes this past summer and now know how to swim like a fish.  I can’t wait for the My Little Pony movie to come out because Rainbow Dash is my favorite hero.  The softest spot in my heart goes to, none other than, cats. Cats. Cats. Cats.  I LOVE CATS!  When I'm not at school, I like to draw.  I am really good at drawing a lot of things like animals, people, and cupcakes.  I like to sing and dance and make new friends.  I love bedtime stories with mommy.  But most of all, I love being a kid!<br><br>
+			
+				Also, check out my favorite website:  <a href="https://www.nickjr.com"><img src="../images2/nickjr.png" alt="nickjr" class="nickjr" width="85"/></a>
+				</span></p><br><br><br><br>
+			
+			</figure>
+
+		</div>
+	
+			<hr>
+	
+		<footer>
+	
+			Made with Love<br /> 
+			By Heather Peterson<br />
+		
+		</footer>
+	
+		<br />
+		
+	</body>
+	
+</html>
